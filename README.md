@@ -1,3 +1,14 @@
+## Information on Using R Files
+
+Your directory should contain 4 R files and 4 plots.  In order to run the R files correctly, you need to include the  file "household_power_consumption.txt" in the same directory as the R files and make that directory your working directory.  The txt file was not included in the repository because of its large size.  You will notice that each R file is made up of one big function (Plot1 through Plot4).  In order to run the code you must first source the file and then make a function call.  Because the function has to go through a lot of data, several print statements are embedded to give status updates while going through the function.
+
+Example
+source("Plot1.R")
+Plot1()
+
+Happy Graphing
+
+
 ## Introduction
 
 This assignment uses data from
